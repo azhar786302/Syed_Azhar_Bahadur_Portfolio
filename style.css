@@ -1,0 +1,143 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+.Intro {
+  background-color: #362f4f;
+  color: white;
+  font-family: "Modern";
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  height: 100vh;
+}
+.Intro .Intro1 {
+  grid-row: 2;
+  grid-column: 2 / span 3;
+}
+.Intro .Intro2 {
+  grid-row: 3;
+  grid-column: 4;
+}
+.Intro .Intro3 {
+  grid-row: 4;
+  grid-column: 2/4;
+  text-align: center;
+  justify-content: center;
+}
+button {
+  background-color: green;
+  color: white;
+}
+.resume {
+  background-color: #5b23ff;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.project {
+  background-color: #008bff;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  justify-content: center;
+  gap: 5px;
+}
+.project h2 {
+  grid-column: 1/-1;
+}
+.interest {
+  background-color: #e4ff30;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+}
+.interest img {
+  border-radius: 50%;
+  border: 5px solid white;
+}
+.contact {
+  background-color: #e4ff30;
+  color: white;
+  display: flex;
+  text-align: bottom;
+  justify-content: center;
+  padding-top: 20px;
+  gap: 20px;
+}
+@media (min-width: 320px) and (max-width: 1024px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+  }
+  .Intro {
+    background-color: #362f4f;
+    color: white;
+    font-family: "Modern";
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    height: 100vh;
+  }
+  .Intro .Intro1 {
+    grid-row: 2;
+    grid-column: 2 / span 3;
+  }
+  .Intro .Intro2 {
+    grid-row: 3;
+    grid-column: 4;
+  }
+  .Intro .Intro3 {
+    grid-row: 4;
+    grid-column: 2/4;
+    text-align: center;
+    justify-content: center;
+  }
+  button {
+    background-color: green;
+    color: white;
+  }
+  .resume {
+    background-color: #5b23ff;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .project {
+    background-color: #008bff;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  .project h2 {
+    grid-column: 1/-1;
+  }
+  .interest {
+    background-color: #e4ff30;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+  }
+  .interest img {
+    border-radius: 50%;
+  }
+  .contact {
+    background-color: #e4ff30;
+    color: white;
+    display: flex;
+    text-align: bottom;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 20px;
+  }
+}
